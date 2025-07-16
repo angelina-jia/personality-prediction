@@ -2,18 +2,18 @@
 
 A comprehensive machine learning project that predicts whether a person is an introvert or extrovert based on their social behavior and personality traits. This project was developed for the 2025 Kaggle Playground Series competition.
 
-## 🎯 Results
+## Results
 
 - **Final Score**: 0.974089
 - **Best Algorithm**: Logistic Regression
 - **Validation Accuracy**: 97%
 - **Competition Rank**: 2025 Kaggle Playground Series
 
-## 📊 Project Overview
+## Project Overview
 
 Using a dataset of personality traits and social behaviors, this project systematically evaluates multiple classification algorithms to build an accurate personality type predictor. The analysis demonstrates the effectiveness of logistic regression for binary classification tasks in psychological data.
 
-## 🔧 Technical Approach
+## Technical Approach
 
 ### Data Preprocessing
 - Handled missing values in categorical and quantitative columns
@@ -22,7 +22,7 @@ Using a dataset of personality traits and social behaviors, this project systema
 
 ### Model Selection
 Evaluated 6 different classification algorithms:
-- Logistic Regression ✅ (Best Performer)
+- Logistic Regression (Best Performer)
 - Random Forest
 - AdaBoost (SAMME algorithm)
 - K-Nearest Neighbors
@@ -35,7 +35,7 @@ Evaluated 6 different classification algorithms:
 - Classification reports with precision, recall, and F1-scores
 - Consistent random states for reproducible results
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 personality-prediction/
@@ -49,7 +49,7 @@ personality-prediction/
 └── requirements.txt       # Python dependencies
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 jupyter notebook predict_introvert_extrovert.ipynb
 ```
 
-## 📋 Requirements
+## Requirements
 
 ```
 pandas
@@ -82,29 +82,29 @@ scikit-learn
 jupyter
 ```
 
-## 🔍 Key Findings
+## Key Findings
 
 - **Simple beats complex**: Logistic regression outperformed ensemble methods
 - **Data quality matters**: Proper preprocessing was crucial for model success
 - **Linear relationships**: Personality traits showed strong linear separability
 - **Balanced performance**: High precision and recall for both personality types
 
-## 🏆 Competition Performance
+## Competition Performance
 
 This systematic approach to machine learning, combined with proper data handling and model evaluation, achieved excellent results in the personality prediction task with a final score of **0.974089**.
 
-## 📈 Future Improvements
+## Future Improvements
 
 - Feature engineering from personality trait combinations
 - Hyperparameter tuning for ensemble methods
 - Cross-validation with stratified sampling
 - Model interpretability analysis
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
