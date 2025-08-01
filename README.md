@@ -41,8 +41,7 @@ Evaluated 6 different classification algorithms:
 personality-prediction/
 ├── README.md
 ├── predict_introvert_extrovert.ipynb    # Complete analysis and model development
-├── submissions/
-│   └── submission.csv     # Final competition submission
+└── submission.csv     # Final competition submission
 ```
 
 ## Getting Started
